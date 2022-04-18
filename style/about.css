@@ -1,0 +1,116 @@
+body{
+    background-color: #B6FFCE;
+    margin: 0px 0px 0px 0px;
+}
+
+/* css Style For Header ..... */
+h1{
+    color: black;
+    font-size: 5rem;
+    padding-left: 15rem;
+}
+
+header{
+    background-color: #8D8DAA;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 0px;
+    position: relative;
+}
+
+header .navbar a {
+    margin: 0 5rem;
+    font-size: 2.6rem;
+    color: #333C83;
+}
+
+header .navbar a:hover{
+    color:bisque;
+}
+
+/* css Style For Main ..... */
+main{
+    background-color: #B6FFCE;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 0px;
+    position: relative;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    background-image: none;
+    border-radius: 50%;
+    /*position: relative;
+    left: 10rem;
+    top: 7rem;*/
+}
+
+.myInfo{
+    text-align: center;
+    position: relative;
+    left: 10rem;
+    top: 7rem;
+}
+
+.yourInfo{
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    right: 10rem;
+    top: 7rem;
+}
+
+input{
+    border-width: 2px;
+    width: 300px;
+    height: 50px;
+}
+
+.msg{
+    width: 300px;
+    height: 300px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-right: 9rem;
+}
+
+.submit{
+    font-size: 2rem;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.submit:hover{
+    color: #B20600;
+}
+
+/* css Style For Footer ..... */
+footer{
+    text-align: center;
+    position: relative;
+    top: 19.5rem;
+    background-color: #8D8DAA;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+}
+
+.web:hover{
+    color:bisque;
+}
