@@ -1,4 +1,4 @@
-/*var name = prompt("Enter Your Name:");
+var name = prompt("Enter Your Name:");
 var gender = prompt("Enter Your Gender:");
 
 var userAge = prompt("Enter Your Age:");
@@ -19,4 +19,4 @@ if(!welMsg){
     else{
         alert(`Welcome ${name} in website`);
     }
-}*/
+}
